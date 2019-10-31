@@ -1,0 +1,138 @@
+/* XL (Desktop,Laptop) Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+	.single-future{
+    	margin-bottom: 20px;
+	}
+	
+}
+
+/*LG Device :992px. (Desktop tablet horizontal)*/
+@media (min-width: 992px) and (max-width: 1200px) {
+	.slider-repeat {
+    	padding: 206px 0px;
+	}
+	.mcenter{
+		text-align: center;
+	}
+	.img-thumb{
+   		width: 40%;
+	}
+	.blog-content span{
+    	margin-right: 5px;
+	}
+	.blog-content p{
+    	margin-bottom: 0px;
+	}
+	.feture-content p {
+    	line-height: 19px;
+    	font-size: 14px;
+    	margin-bottom: 0px;
+	}
+	.feture-content h3{
+		font-size: 15px;
+	}
+}
+
+
+/*MD Device :768px. (Small tablet,Phone vertical)*/
+@media (min-width: 768px) and (max-width: 991px) {
+	.logo{
+		text-align: center;
+	}
+	.main-menu{
+		text-align: left;
+	}
+	.slider-repeat {
+   		padding: 207px 0px;
+	}
+	.mcenter{
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.slider-active h3 {
+	    font-size: 25px;
+	}
+	.slider-active h2 {
+	    font-size: 55px;
+	}
+	.services-content h3{
+		line-height: 18px;
+		margin-bottom: 7px;
+	}
+	.mb-35 {
+    	margin-bottom: 17px;
+	}
+	.single-future{
+		margin-bottom: 20px;
+	}
+	.feture-content p{
+		margin-bottom: 4px;
+	}
+	.blog-content h4{
+		font-size: 13px;
+	}
+	.blog-content p{
+		font-size: 13px;
+		margin-bottom: 4px;
+	}
+	.blog-content span a{
+		padding:0px;
+	}
+	.blog-content span{
+		margin-right: 36px;
+	}
+	.img-thumb span{
+		font-size: 10px;
+	}
+	.test-item .icon-side i{
+		font-size: 34px;
+	}
+	.test-item .without-icon::before{
+		top: 63%;
+	}
+	.feture-content p {
+    	line-height: 19px;
+    	font-size: 14px;
+    	margin-bottom: 0px;
+	}
+	.feture-content{
+		margin: 0px auto;
+	}
+}
+
+
+/*SM Extra small Device. (Phone)*/
+@media (max-width: 767px) {
+	.slider-repeat {
+   		padding: 207px 0px;
+	}
+	.mcenter{
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.single-future,.video-bg{
+		margin-bottom: 20px;
+	}
+	.mmar{
+		margin-bottom: 40px;
+	}
+	.blog-area h3{
+		text-align: center;
+	}
+	.blog-area h3::before{
+		left: 50%;
+	}
+	.blog-active .owl-nav div.owl-prev,.test-active .owl-nav div.owl-prev{
+		left: 120px;
+	}
+	.blog-active .owl-nav div,.test-active .owl-nav div{
+		left: 365px;
+	}
+	
+}
+
+/* SM Small Device :550px. (Phone)*/
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+	
+
+}
